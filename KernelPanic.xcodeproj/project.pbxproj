@@ -7,19 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F6D4F7C11F02E52C00086B78 /* KernelPanic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6D4F7BF1F02E52C00086B78 /* KernelPanic.cpp */; };
-		F6D4F7C21F02E52C00086B78 /* KernelPanic.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F6D4F7C01F02E52C00086B78 /* KernelPanic.hpp */; };
+		F652CF4A1F02F73100E138D3 /* KernelPanic.c in Sources */ = {isa = PBXBuildFile; fileRef = F652CF491F02F73100E138D3 /* KernelPanic.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F6D4F7B41F02E4FF00086B78 /* KernelPanic.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KernelPanic.kext; sourceTree = BUILT_PRODUCTS_DIR; };
-		F6D4F7B91F02E4FF00086B78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F6D4F7BF1F02E52C00086B78 /* KernelPanic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = KernelPanic.cpp; sourceTree = "<group>"; };
-		F6D4F7C01F02E52C00086B78 /* KernelPanic.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = KernelPanic.hpp; sourceTree = "<group>"; };
+		F652CF461F02F73100E138D3 /* KernelPanic.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KernelPanic.kext; sourceTree = BUILT_PRODUCTS_DIR; };
+		F652CF491F02F73100E138D3 /* KernelPanic.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = KernelPanic.c; sourceTree = "<group>"; };
+		F652CF4B1F02F73100E138D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F6D4F7B01F02E4FF00086B78 /* Frameworks */ = {
+		F652CF421F02F73100E138D3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -29,28 +27,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F6D4F7AA1F02E4FF00086B78 = {
+		F652CF3C1F02F73100E138D3 = {
 			isa = PBXGroup;
 			children = (
-				F6D4F7B61F02E4FF00086B78 /* KernelPanic */,
-				F6D4F7B51F02E4FF00086B78 /* Products */,
+				F652CF481F02F73100E138D3 /* KernelPanic */,
+				F652CF471F02F73100E138D3 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F6D4F7B51F02E4FF00086B78 /* Products */ = {
+		F652CF471F02F73100E138D3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F6D4F7B41F02E4FF00086B78 /* KernelPanic.kext */,
+				F652CF461F02F73100E138D3 /* KernelPanic.kext */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F6D4F7B61F02E4FF00086B78 /* KernelPanic */ = {
+		F652CF481F02F73100E138D3 /* KernelPanic */ = {
 			isa = PBXGroup;
 			children = (
-				F6D4F7BF1F02E52C00086B78 /* KernelPanic.cpp */,
-				F6D4F7C01F02E52C00086B78 /* KernelPanic.hpp */,
-				F6D4F7B91F02E4FF00086B78 /* Info.plist */,
+				F652CF491F02F73100E138D3 /* KernelPanic.c */,
+				F652CF4B1F02F73100E138D3 /* Info.plist */,
 			);
 			path = KernelPanic;
 			sourceTree = "<group>";
@@ -58,25 +55,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		F6D4F7B11F02E4FF00086B78 /* Headers */ = {
+		F652CF431F02F73100E138D3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6D4F7C21F02E52C00086B78 /* KernelPanic.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		F6D4F7B31F02E4FF00086B78 /* KernelPanic */ = {
+		F652CF451F02F73100E138D3 /* KernelPanic */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F6D4F7BC1F02E4FF00086B78 /* Build configuration list for PBXNativeTarget "KernelPanic" */;
+			buildConfigurationList = F652CF4E1F02F73100E138D3 /* Build configuration list for PBXNativeTarget "KernelPanic" */;
 			buildPhases = (
-				F6D4F7AF1F02E4FF00086B78 /* Sources */,
-				F6D4F7B01F02E4FF00086B78 /* Frameworks */,
-				F6D4F7B11F02E4FF00086B78 /* Headers */,
-				F6D4F7B21F02E4FF00086B78 /* Resources */,
+				F652CF411F02F73100E138D3 /* Sources */,
+				F652CF421F02F73100E138D3 /* Frameworks */,
+				F652CF431F02F73100E138D3 /* Headers */,
+				F652CF441F02F73100E138D3 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -84,43 +80,43 @@
 			);
 			name = KernelPanic;
 			productName = KernelPanic;
-			productReference = F6D4F7B41F02E4FF00086B78 /* KernelPanic.kext */;
+			productReference = F652CF461F02F73100E138D3 /* KernelPanic.kext */;
 			productType = "com.apple.product-type.kernel-extension";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F6D4F7AB1F02E4FF00086B78 /* Project object */ = {
+		F652CF3D1F02F73100E138D3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = lvs1974;
 				TargetAttributes = {
-					F6D4F7B31F02E4FF00086B78 = {
+					F652CF451F02F73100E138D3 = {
 						CreatedOnToolsVersion = 8.3.3;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = F6D4F7AE1F02E4FF00086B78 /* Build configuration list for PBXProject "KernelPanic" */;
+			buildConfigurationList = F652CF401F02F73100E138D3 /* Build configuration list for PBXProject "KernelPanic" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = F6D4F7AA1F02E4FF00086B78;
-			productRefGroup = F6D4F7B51F02E4FF00086B78 /* Products */;
+			mainGroup = F652CF3C1F02F73100E138D3;
+			productRefGroup = F652CF471F02F73100E138D3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F6D4F7B31F02E4FF00086B78 /* KernelPanic */,
+				F652CF451F02F73100E138D3 /* KernelPanic */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F6D4F7B21F02E4FF00086B78 /* Resources */ = {
+		F652CF441F02F73100E138D3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -130,18 +126,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F6D4F7AF1F02E4FF00086B78 /* Sources */ = {
+		F652CF411F02F73100E138D3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6D4F7C11F02E52C00086B78 /* KernelPanic.cpp in Sources */,
+				F652CF4A1F02F73100E138D3 /* KernelPanic.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		F6D4F7BA1F02E4FF00086B78 /* Debug */ = {
+		F652CF4C1F02F73100E138D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -189,7 +185,7 @@
 			};
 			name = Debug;
 		};
-		F6D4F7BB1F02E4FF00086B78 /* Release */ = {
+		F652CF4D1F02F73100E138D3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -230,11 +226,13 @@
 			};
 			name = Release;
 		};
-		F6D4F7BD1F02E4FF00086B78 /* Debug */ = {
+		F652CF4F1F02F73100E138D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = KernelPanic/Info.plist;
 				MODULE_NAME = lvs1974.KernelPanic;
+				MODULE_START = KernelPanic_start;
+				MODULE_STOP = KernelPanic_stop;
 				MODULE_VERSION = 1.0.0d1;
 				PRODUCT_BUNDLE_IDENTIFIER = lvs1974.KernelPanic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -242,11 +240,13 @@
 			};
 			name = Debug;
 		};
-		F6D4F7BE1F02E4FF00086B78 /* Release */ = {
+		F652CF501F02F73100E138D3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = KernelPanic/Info.plist;
 				MODULE_NAME = lvs1974.KernelPanic;
+				MODULE_START = KernelPanic_start;
+				MODULE_STOP = KernelPanic_stop;
 				MODULE_VERSION = 1.0.0d1;
 				PRODUCT_BUNDLE_IDENTIFIER = lvs1974.KernelPanic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -257,25 +257,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F6D4F7AE1F02E4FF00086B78 /* Build configuration list for PBXProject "KernelPanic" */ = {
+		F652CF401F02F73100E138D3 /* Build configuration list for PBXProject "KernelPanic" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F6D4F7BA1F02E4FF00086B78 /* Debug */,
-				F6D4F7BB1F02E4FF00086B78 /* Release */,
+				F652CF4C1F02F73100E138D3 /* Debug */,
+				F652CF4D1F02F73100E138D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F6D4F7BC1F02E4FF00086B78 /* Build configuration list for PBXNativeTarget "KernelPanic" */ = {
+		F652CF4E1F02F73100E138D3 /* Build configuration list for PBXNativeTarget "KernelPanic" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F6D4F7BD1F02E4FF00086B78 /* Debug */,
-				F6D4F7BE1F02E4FF00086B78 /* Release */,
+				F652CF4F1F02F73100E138D3 /* Debug */,
+				F652CF501F02F73100E138D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F6D4F7AB1F02E4FF00086B78 /* Project object */;
+	rootObject = F652CF3D1F02F73100E138D3 /* Project object */;
 }
