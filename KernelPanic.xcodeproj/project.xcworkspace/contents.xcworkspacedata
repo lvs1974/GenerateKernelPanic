@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:/Users/serglvs1974/Documents/HibernateVarsSync/KernelPanic.xcodeproj">
+      location = "self:KernelPanic.xcodeproj">
    </FileRef>
 </Workspace>

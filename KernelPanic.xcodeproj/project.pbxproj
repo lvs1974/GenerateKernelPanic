@@ -7,34 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F6A070ED1E589F0300A6D21D /* Changelog.md in Sources */ = {isa = PBXBuildFile; fileRef = F6A070EA1E589F0300A6D21D /* Changelog.md */; };
-		F6A070EE1E589F0300A6D21D /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = F6A070EB1E589F0300A6D21D /* LICENSE.txt */; };
-		F6A070EF1E589F0300A6D21D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = F6A070EC1E589F0300A6D21D /* README.md */; };
-		F6E0ED901DC3C53F00DAE12D /* KernelPanic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6E0ED8D1DC3C53F00DAE12D /* KernelPanic.cpp */; };
-		F6E0ED911DC3C53F00DAE12D /* KernelPanic.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F6E0ED8E1DC3C53F00DAE12D /* KernelPanic.hpp */; };
+		F6D4F7C11F02E52C00086B78 /* KernelPanic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6D4F7BF1F02E52C00086B78 /* KernelPanic.cpp */; };
+		F6D4F7C21F02E52C00086B78 /* KernelPanic.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F6D4F7C01F02E52C00086B78 /* KernelPanic.hpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F624BBAC1F02D800001644C3 /* KernelPanic.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KernelPanic.kext; sourceTree = BUILT_PRODUCTS_DIR; };
-		F67E793D1DC3B6C10005F5EF /* KernelPanic.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KernelPanic.kext; sourceTree = BUILT_PRODUCTS_DIR; };
-		F67E794B1DC3B6D10005F5EF /* Kernel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kernel.framework; path = System/Library/Frameworks/Kernel.framework; sourceTree = SDKROOT; };
-		F6A070EA1E589F0300A6D21D /* Changelog.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Changelog.md; sourceTree = "<group>"; };
-		F6A070EB1E589F0300A6D21D /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
-		F6A070EC1E589F0300A6D21D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		F6E0ED8D1DC3C53F00DAE12D /* KernelPanic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = KernelPanic.cpp; path = KernelPanic/KernelPanic.cpp; sourceTree = SOURCE_ROOT; };
-		F6E0ED8E1DC3C53F00DAE12D /* KernelPanic.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = KernelPanic.hpp; path = KernelPanic/KernelPanic.hpp; sourceTree = SOURCE_ROOT; };
-		F6E0ED8F1DC3C53F00DAE12D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = KernelPanic/Info.plist; sourceTree = SOURCE_ROOT; };
+		F6D4F7B41F02E4FF00086B78 /* KernelPanic.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KernelPanic.kext; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6D4F7B91F02E4FF00086B78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6D4F7BF1F02E52C00086B78 /* KernelPanic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = KernelPanic.cpp; sourceTree = "<group>"; };
+		F6D4F7C01F02E52C00086B78 /* KernelPanic.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = KernelPanic.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F624BBA81F02D800001644C3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F67E79391DC3B6C10005F5EF /* Frameworks */ = {
+		F6D4F7B01F02E4FF00086B78 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -44,83 +29,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F624BBAD1F02D800001644C3 /* KernelPanic */ = {
+		F6D4F7AA1F02E4FF00086B78 = {
 			isa = PBXGroup;
 			children = (
-				F6E0ED8D1DC3C53F00DAE12D /* KernelPanic.cpp */,
-				F6E0ED8E1DC3C53F00DAE12D /* KernelPanic.hpp */,
-				F6E0ED8F1DC3C53F00DAE12D /* Info.plist */,
-			);
-			name = KernelPanic;
-			path = KernelPanic;
-			sourceTree = "<group>";
-		};
-		F67E79331DC3B6C10005F5EF = {
-			isa = PBXGroup;
-			children = (
-				F6A070E91E589EF700A6D21D /* Docs */,
-				F624BBAD1F02D800001644C3 /* KernelPanic */,
-				F67E793E1DC3B6C10005F5EF /* Products */,
-				F67E794A1DC3B6D10005F5EF /* Frameworks */,
+				F6D4F7B61F02E4FF00086B78 /* KernelPanic */,
+				F6D4F7B51F02E4FF00086B78 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F67E793E1DC3B6C10005F5EF /* Products */ = {
+		F6D4F7B51F02E4FF00086B78 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F67E793D1DC3B6C10005F5EF /* KernelPanic.kext */,
-				F624BBAC1F02D800001644C3 /* KernelPanic.kext */,
+				F6D4F7B41F02E4FF00086B78 /* KernelPanic.kext */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F67E794A1DC3B6D10005F5EF /* Frameworks */ = {
+		F6D4F7B61F02E4FF00086B78 /* KernelPanic */ = {
 			isa = PBXGroup;
 			children = (
-				F67E794B1DC3B6D10005F5EF /* Kernel.framework */,
+				F6D4F7BF1F02E52C00086B78 /* KernelPanic.cpp */,
+				F6D4F7C01F02E52C00086B78 /* KernelPanic.hpp */,
+				F6D4F7B91F02E4FF00086B78 /* Info.plist */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		F6A070E91E589EF700A6D21D /* Docs */ = {
-			isa = PBXGroup;
-			children = (
-				F6A070EA1E589F0300A6D21D /* Changelog.md */,
-				F6A070EB1E589F0300A6D21D /* LICENSE.txt */,
-				F6A070EC1E589F0300A6D21D /* README.md */,
-			);
-			name = Docs;
+			path = KernelPanic;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		F624BBA91F02D800001644C3 /* Headers */ = {
+		F6D4F7B11F02E4FF00086B78 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F67E793A1DC3B6C10005F5EF /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F6E0ED911DC3C53F00DAE12D /* KernelPanic.hpp in Headers */,
+				F6D4F7C21F02E52C00086B78 /* KernelPanic.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		F624BBAB1F02D800001644C3 /* KernelPanic */ = {
+		F6D4F7B31F02E4FF00086B78 /* KernelPanic */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F624BBB31F02D800001644C3 /* Build configuration list for PBXNativeTarget "KernelPanic" */;
+			buildConfigurationList = F6D4F7BC1F02E4FF00086B78 /* Build configuration list for PBXNativeTarget "KernelPanic" */;
 			buildPhases = (
-				F624BBA71F02D800001644C3 /* Sources */,
-				F624BBA81F02D800001644C3 /* Frameworks */,
-				F624BBA91F02D800001644C3 /* Headers */,
-				F624BBAA1F02D800001644C3 /* Resources */,
+				F6D4F7AF1F02E4FF00086B78 /* Sources */,
+				F6D4F7B01F02E4FF00086B78 /* Frameworks */,
+				F6D4F7B11F02E4FF00086B78 /* Headers */,
+				F6D4F7B21F02E4FF00086B78 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -128,138 +84,69 @@
 			);
 			name = KernelPanic;
 			productName = KernelPanic;
-			productReference = F624BBAC1F02D800001644C3 /* KernelPanic.kext */;
-			productType = "com.apple.product-type.kernel-extension";
-		};
-		F67E793C1DC3B6C10005F5EF /* KernelPanic */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F67E79471DC3B6C10005F5EF /* Build configuration list for PBXNativeTarget "KernelPanic" */;
-			buildPhases = (
-				F67E79381DC3B6C10005F5EF /* Sources */,
-				F67E79391DC3B6C10005F5EF /* Frameworks */,
-				F67E793A1DC3B6C10005F5EF /* Headers */,
-				F67E793B1DC3B6C10005F5EF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = KernelPanic;
-			productName = HibernateVarSync;
-			productReference = F67E793D1DC3B6C10005F5EF /* KernelPanic.kext */;
+			productReference = F6D4F7B41F02E4FF00086B78 /* KernelPanic.kext */;
 			productType = "com.apple.product-type.kernel-extension";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F67E79341DC3B6C10005F5EF /* Project object */ = {
+		F6D4F7AB1F02E4FF00086B78 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0820;
-				ORGANIZATIONNAME = "Sergey Lvov";
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = lvs1974;
 				TargetAttributes = {
-					F624BBAB1F02D800001644C3 = {
+					F6D4F7B31F02E4FF00086B78 = {
 						CreatedOnToolsVersion = 8.3.3;
-						ProvisioningStyle = Automatic;
-					};
-					F67E793C1DC3B6C10005F5EF = {
-						CreatedOnToolsVersion = 8.0;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = F67E79371DC3B6C10005F5EF /* Build configuration list for PBXProject "KernelPanic" */;
+			buildConfigurationList = F6D4F7AE1F02E4FF00086B78 /* Build configuration list for PBXProject "KernelPanic" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = F67E79331DC3B6C10005F5EF;
-			productRefGroup = F67E793E1DC3B6C10005F5EF /* Products */;
+			mainGroup = F6D4F7AA1F02E4FF00086B78;
+			productRefGroup = F6D4F7B51F02E4FF00086B78 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F67E793C1DC3B6C10005F5EF /* KernelPanic */,
-				F624BBAB1F02D800001644C3 /* KernelPanic */,
+				F6D4F7B31F02E4FF00086B78 /* KernelPanic */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F624BBAA1F02D800001644C3 /* Resources */ = {
+		F6D4F7B21F02E4FF00086B78 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F67E793B1DC3B6C10005F5EF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F6A070EE1E589F0300A6D21D /* LICENSE.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F624BBA71F02D800001644C3 /* Sources */ = {
+		F6D4F7AF1F02E4FF00086B78 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F67E79381DC3B6C10005F5EF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F6A070EF1E589F0300A6D21D /* README.md in Sources */,
-				F6E0ED901DC3C53F00DAE12D /* KernelPanic.cpp in Sources */,
-				F6A070ED1E589F0300A6D21D /* Changelog.md in Sources */,
+				F6D4F7C11F02E52C00086B78 /* KernelPanic.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		F624BBB11F02D800001644C3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				INFOPLIST_FILE = KernelPanic/Info.plist;
-				MODULE_NAME = lvs1974.KernelPanic;
-				MODULE_START = KernelPanic_start;
-				MODULE_STOP = KernelPanic_stop;
-				MODULE_VERSION = 1.0.0d1;
-				PRODUCT_BUNDLE_IDENTIFIER = lvs1974.KernelPanic;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = kext;
-			};
-			name = Debug;
-		};
-		F624BBB21F02D800001644C3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				INFOPLIST_FILE = KernelPanic/Info.plist;
-				MODULE_NAME = lvs1974.KernelPanic;
-				MODULE_START = KernelPanic_start;
-				MODULE_STOP = KernelPanic_stop;
-				MODULE_VERSION = 1.0.0d1;
-				PRODUCT_BUNDLE_IDENTIFIER = lvs1974.KernelPanic;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = kext;
-			};
-			name = Release;
-		};
-		F67E79451DC3B6C10005F5EF /* Debug */ = {
+		F6D4F7BA1F02E4FF00086B78 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -274,7 +161,6 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
@@ -303,11 +189,12 @@
 			};
 			name = Debug;
 		};
-		F67E79461DC3B6C10005F5EF /* Release */ = {
+		F6D4F7BB1F02E4FF00086B78 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -322,7 +209,6 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
@@ -344,35 +230,29 @@
 			};
 			name = Release;
 		};
-		F67E79481DC3B6C10005F5EF /* Debug */ = {
+		F6D4F7BD1F02E4FF00086B78 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1.0.0d1;
-				GCC_ENABLE_CPP_EXCEPTIONS = NO;
-				GCC_ENABLE_CPP_RTTI = NO;
 				INFOPLIST_FILE = KernelPanic/Info.plist;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				MODULE_NAME = lvs1974.KernelPanic;
+				MODULE_START = KernelPanic_start;
+				MODULE_STOP = KernelPanic_stop;
 				MODULE_VERSION = 1.0.0d1;
-				PRODUCT_BUNDLE_IDENTIFIER = KernelPanic;
+				PRODUCT_BUNDLE_IDENTIFIER = lvs1974.KernelPanic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = kext;
 			};
 			name = Debug;
 		};
-		F67E79491DC3B6C10005F5EF /* Release */ = {
+		F6D4F7BE1F02E4FF00086B78 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1.0.0d1;
-				GCC_ENABLE_CPP_EXCEPTIONS = NO;
-				GCC_ENABLE_CPP_RTTI = NO;
 				INFOPLIST_FILE = KernelPanic/Info.plist;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				MODULE_NAME = lvs1974.KernelPanic;
+				MODULE_START = KernelPanic_start;
+				MODULE_STOP = KernelPanic_stop;
 				MODULE_VERSION = 1.0.0d1;
-				PRODUCT_BUNDLE_IDENTIFIER = KernelPanic;
+				PRODUCT_BUNDLE_IDENTIFIER = lvs1974.KernelPanic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = kext;
 			};
@@ -381,33 +261,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F624BBB31F02D800001644C3 /* Build configuration list for PBXNativeTarget "KernelPanic" */ = {
+		F6D4F7AE1F02E4FF00086B78 /* Build configuration list for PBXProject "KernelPanic" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F624BBB11F02D800001644C3 /* Debug */,
-				F624BBB21F02D800001644C3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		F67E79371DC3B6C10005F5EF /* Build configuration list for PBXProject "KernelPanic" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F67E79451DC3B6C10005F5EF /* Debug */,
-				F67E79461DC3B6C10005F5EF /* Release */,
+				F6D4F7BA1F02E4FF00086B78 /* Debug */,
+				F6D4F7BB1F02E4FF00086B78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F67E79471DC3B6C10005F5EF /* Build configuration list for PBXNativeTarget "KernelPanic" */ = {
+		F6D4F7BC1F02E4FF00086B78 /* Build configuration list for PBXNativeTarget "KernelPanic" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F67E79481DC3B6C10005F5EF /* Debug */,
-				F67E79491DC3B6C10005F5EF /* Release */,
+				F6D4F7BD1F02E4FF00086B78 /* Debug */,
+				F6D4F7BE1F02E4FF00086B78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F67E79341DC3B6C10005F5EF /* Project object */;
+	rootObject = F6D4F7AB1F02E4FF00086B78 /* Project object */;
 }
