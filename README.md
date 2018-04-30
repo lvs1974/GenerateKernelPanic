@@ -1,4 +1,4 @@
 KernelPanic
 ==================
 
-Simulate a siple kernel panic
+Simulate a very simple kernel panic (division by zero).
